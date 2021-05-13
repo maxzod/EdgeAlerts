@@ -1,0 +1,22 @@
+name: example
+description: null safe version from the edge_alert package
+version: 0.0.2
+homepage: https://github.com/maxzod/EdgeAlert
+publish_to: "none"
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  edge_alerts:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lint: ^1.5.3
+
+flutter: null
+uses-material-design: true
