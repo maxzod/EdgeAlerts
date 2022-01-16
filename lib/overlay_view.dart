@@ -17,7 +17,7 @@ class OverlayView {
   static bool _isVisible = false;
 
   static void createView(
-    BuildContext context, {
+    BuildContext? context, {
     IconData? icon,
     Color? backgroundColor,
     required String title,
@@ -25,7 +25,7 @@ class OverlayView {
     required int duration,
     required Gravity gravity,
   }) {
-    _overlayState = Navigator.of(context).overlay;
+    _overlayState = Navigator.of(context!).overlay;
 
     if (!_isVisible) {
       _isVisible = true;
