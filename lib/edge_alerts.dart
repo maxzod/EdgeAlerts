@@ -7,7 +7,7 @@ import 'overlay_view.dart';
 enum Gravity { top, bottom }
 
 void edgeAlert(
-  BuildContext context, {
+  BuildContext? context, {
   String title = '',
   String description = '',
   Color? backgroundColor,
